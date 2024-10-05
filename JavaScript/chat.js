@@ -19,7 +19,7 @@ export class chat extends plugin {
       priority: 50,
       rule: [
         {
-          reg: "^qc",
+          reg: "^qbot-",
           fnc: "action"
         }
       ]
